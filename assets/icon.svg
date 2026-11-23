@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" role="img" aria-label="GitHub Hub">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7c6cf5"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
+  <g fill="#ffffff">
+    <circle cx="148" cy="32" r="7" fill="#ffffff" fill-opacity="0.35"/>
+    <circle cx="32" cy="150" r="5" fill="#ffffff" fill-opacity="0.25"/>
+  </g>
+  <path d="M46 44h44l30 30v62a6 6 0 0 1-6 6H46a6 6 0 0 1-6-6V50a6 6 0 0 1 6-6z" fill="#ffffff" fill-opacity="0.16"/>
+  <path d="M90 44l30 30H96a6 6 0 0 1-6-6V44z" fill="#ffffff" fill-opacity="0.4"/>
+  <path d="M46 108l22-14 16 9 18-22 22-12" fill="none" stroke="url(#spark)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="124" cy="69" r="7" fill="#ffffff"/>
+  <g fill="#ffffff">
+    <rect x="50" y="82" width="62" height="7" rx="3.5" fill-opacity="0.75"/>
+    <rect x="50" y="124" width="40" height="7" rx="3.5" fill-opacity="0.55"/>
+  </g>
+</svg>

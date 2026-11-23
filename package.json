@@ -1,0 +1,58 @@
+{
+  "name": "dsh-github-hub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Connect a GitHub account, browse repositories and code, manage issues, pull requests and Actions runs, commit files through the API, and record star history for the repositories you track.",
+  "license": "MIT",
+  "author": "Sakura050512",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "github",
+    "repositories",
+    "pull-request",
+    "actions",
+    "star-history"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sakura050512/dsh-github-hub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sakura050512/dsh-github-hub/issues"
+  },
+  "homepage": "https://github.com/Sakura050512/dsh-github-hub#readme",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./assets/icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "locale",
+    "assets",
+    "README.md",
+    "LICENSE",
+    "cordis.patch.yml",
+    "screenshots.json"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

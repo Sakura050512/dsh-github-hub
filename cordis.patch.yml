@@ -1,0 +1,5 @@
+# dsh-github-hub — 一个 bundle：Host 半边负责 GitHub REST 代理、star 快照与推送，
+# 浏览器半边在设置里注册「GitHub 中心」页；Token 存放在 credentials 的 GITHUB_TOKEN。
+- insert:
+    - id: github-hub
+      name: dsh-github-hub
