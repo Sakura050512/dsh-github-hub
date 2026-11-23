@@ -12,6 +12,8 @@
 
 ![Star](assets/screenshot-5-star.png)
 
+[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)
+
 ## 装什么
 
 打开 **设置 → GitHub 中心** 或 **左侧栏 → GitHub 中心**，两条路都能连上账号。
